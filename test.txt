@@ -1,3 +1,7 @@
 Text for homework 3
 
+
 Another line to cloned project, for developer_base2 branch
+
+Another line for develop_base branch
+
