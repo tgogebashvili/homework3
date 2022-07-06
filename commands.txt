@@ -1,0 +1,18 @@
+
+git checkout develop - switch to develop
+git merge origin/develop_base - merge first branch
+git push origin develop - push
+
+git merge origin/develop_base2 - merge second branch
+git push origin develop - it was rejected and needed fetch first
+git fetch origin - I've fetched
+git push origin develop - needed pull
+git pull origin develop - received auto-merging conflict. I opened file update and save.
+
+git add test.txt - added updated file
+git status - just check
+git commit -m "resolved conflict" - commit
+git push origin develop - push successfully 
+
+
+P.s. got information about untracked files: .DS_Store
